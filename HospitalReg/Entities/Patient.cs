@@ -16,7 +16,6 @@ namespace HospitalReg
         string _illness;
         DateTime date;
 
-       // Burada generic bir class oluşturarak Patient bilgilerine referans tutuyoruz
         public int Id { get => _id; set => _id = value; }
         public int IdentNo { get => _identNo; set => _identNo = value; }
         public string Name { get => _name; set => _name = value; }
